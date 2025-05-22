@@ -1,22 +1,30 @@
-# 📘 Fundamentals Of Numeric Predictions
 
-This markdown document summarizes and contextualizes content from the lecture: **5. Fundamentals of Numeric Predictions.pdf**.
+# 🔢 Fundamentals of Numeric Predictions
 
-## 🔍 Topics Covered
+Covers techniques for predicting continuous variables using regression, k-NN, and decision trees.
 
-*This summary is built from lecture slides and notes from the original PDF.*
+## 📌 Key Methods
 
-### Overview:
-- Concepts are extracted from **5. Fundamentals of Numeric Predictions**
-- Relevant models, terms, and case examples are highlighted
-- Visualizations and examples in original PDF should be referred for clarity
+### Linear Regression
+- Fits a linear equation to minimize squared error.
+- Can use forward selection, backward elimination, or regularization (Lasso, Ridge).
+
+### k-NN for Regression
+- Uses average of k-nearest neighbors.
+- Weighted or unweighted depending on distance.
+
+### Regression Trees
+- Uses recursive partitioning to split data into homogeneous regions.
+- Predicts using the mean of the target in each region.
+
+## 📏 Evaluation Metrics
+- RMSE (Root Mean Squared Error)
+- MAE (Mean Absolute Error)
+- MAPE (Mean Absolute Percentage Error)
 
 ---
 
-## 🧠 Key Takeaways
-
-Please refer to the original slides for visual flowcharts and examples.
-
----
-
-> 📌 This is a structured placeholder. You can request detailed section-by-section notes, definitions, or examples to be inserted here based on each PDF.
+## ✅ Best Practices
+- Use subset selection to avoid overfitting.
+- Normalize features for k-NN.
+- Prune trees to prevent overly complex models.

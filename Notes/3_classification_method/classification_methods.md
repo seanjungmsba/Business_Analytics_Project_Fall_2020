@@ -1,22 +1,28 @@
-# 📘 Classification Methods
 
-This markdown document summarizes and contextualizes content from the lecture: **3. Classification Methods.pdf**.
+# 🌲 Classification Methods
 
-## 🔍 Topics Covered
+This lecture compares classification algorithms including k-NN, Decision Trees, and Logistic Regression.
 
-*This summary is built from lecture slides and notes from the original PDF.*
+## 📊 Models
 
-### Overview:
-- Concepts are extracted from **3. Classification Methods**
-- Relevant models, terms, and case examples are highlighted
-- Visualizations and examples in original PDF should be referred for clarity
+### k-Nearest Neighbors (k-NN)
+- Non-parametric, lazy learner.
+- Sensitive to irrelevant features and high-dimensionality.
+
+### Decision Trees
+- Intuitive model with hierarchical splits.
+- Flexible but can overfit on small datasets.
+
+### Logistic Regression
+- Produces class probabilities using a sigmoid function.
+- Best for linear relationships.
+
+## 📉 Overfitting & Underfitting
+- Cross-validation is key to identifying generalization performance.
 
 ---
 
-## 🧠 Key Takeaways
-
-Please refer to the original slides for visual flowcharts and examples.
-
----
-
-> 📌 This is a structured placeholder. You can request detailed section-by-section notes, definitions, or examples to be inserted here based on each PDF.
+## ✅ Choosing Models
+- k-NN is best for simple problems and smaller data.
+- Decision Trees for large, complex patterns.
+- Logistic Regression for interpretable linear boundaries.

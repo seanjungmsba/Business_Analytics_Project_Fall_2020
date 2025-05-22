@@ -1,22 +1,28 @@
-# 📘 Intro To Classification
 
-This markdown document summarizes and contextualizes content from the lecture: **2. Intro to Classification.pdf**.
+# 📘 Introduction to Classification
 
-## 🔍 Topics Covered
+Classification is a supervised learning method where the output is a category or class label.
 
-*This summary is built from lecture slides and notes from the original PDF.*
+## 📌 Key Topics
 
-### Overview:
-- Concepts are extracted from **2. Intro to Classification**
-- Relevant models, terms, and case examples are highlighted
-- Visualizations and examples in original PDF should be referred for clarity
+### Supervised Segmentation
+- Split dataset into meaningful groups using features.
+
+### Entropy & Information Gain
+- Measures uncertainty; used to select best attributes for splits in decision trees.
+
+### Decision Trees
+- Splits data based on information gain.
+- Easy to interpret and visualize.
+- Prone to overfitting; requires pruning.
+
+### Feature Types
+- **Categorical**: Non-ordered, used for classification.
+- **Numeric**: Ordered, used for regression.
 
 ---
 
-## 🧠 Key Takeaways
-
-Please refer to the original slides for visual flowcharts and examples.
-
----
-
-> 📌 This is a structured placeholder. You can request detailed section-by-section notes, definitions, or examples to be inserted here based on each PDF.
+## 🧠 Example Applications
+- Spam detection
+- Loan approval prediction
+- Disease diagnosis

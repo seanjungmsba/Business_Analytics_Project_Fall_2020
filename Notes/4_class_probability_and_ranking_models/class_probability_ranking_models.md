@@ -1,22 +1,22 @@
-# 📘 Class Probability Ranking Models
 
-This markdown document summarizes and contextualizes content from the lecture: **4. Class Probability and Ranking Models.pdf**.
+# 📈 Class Probability & Ranking Models
 
-## 🔍 Topics Covered
+This module focuses on estimating class membership probabilities and ranking predictions.
 
-*This summary is built from lecture slides and notes from the original PDF.*
+## 🎯 Probability Estimation
+- Outputs likelihood of class membership, not just class labels.
+- Useful in applications like churn prediction and fraud detection.
 
-### Overview:
-- Concepts are extracted from **4. Class Probability and Ranking Models**
-- Relevant models, terms, and case examples are highlighted
-- Visualizations and examples in original PDF should be referred for clarity
+## 📊 ROC & AUC
+- **ROC Curve**: Plots true positive rate vs. false positive rate.
+- **AUC (Area Under Curve)**: Measures overall model performance (0.5 = random, 1.0 = perfect).
 
----
+## 🧪 Evaluation Metrics
+- **Precision**: TP / (TP + FP)
+- **Recall**: TP / (TP + FN)
+- **F1 Score**: Harmonic mean of precision and recall.
 
-## 🧠 Key Takeaways
-
-Please refer to the original slides for visual flowcharts and examples.
-
----
-
-> 📌 This is a structured placeholder. You can request detailed section-by-section notes, definitions, or examples to be inserted here based on each PDF.
+## 📌 Additional Topics
+- Cross-validation
+- Learning curves vs. fitting graphs
+- Profit curves & cost-sensitive analysis

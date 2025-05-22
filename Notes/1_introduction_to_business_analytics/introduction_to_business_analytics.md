@@ -1,22 +1,43 @@
-# 📘 Introduction To Business Analytics
 
-This markdown document summarizes and contextualizes content from the lecture: **1. Introduction to Business Analytics.pdf**.
+# 📘 Introduction to Business Analytics
 
-## 🔍 Topics Covered
+This lecture introduces the foundations of business analytics and the CRISP-DM framework for data mining.
 
-*This summary is built from lecture slides and notes from the original PDF.*
+## 🔍 Core Concepts
 
-### Overview:
-- Concepts are extracted from **1. Introduction to Business Analytics**
-- Relevant models, terms, and case examples are highlighted
-- Visualizations and examples in original PDF should be referred for clarity
+### Data-Driven Decision Making (DDD)
+- Basing business decisions on data rather than intuition.
+- DDD leads to higher productivity, ROI, and asset utilization.
+
+### What Is Business Analytics?
+- Analytical approaches to optimize performance.
+- Understand, predict, and improve business operations.
+
+### Analytics Types:
+1. **Descriptive** – What happened?
+2. **Diagnostic** – Why did it happen?
+3. **Predictive** – What is likely to happen?
+4. **Prescriptive** – What should we do?
+
+### CRISP-DM Process:
+1. Business Understanding
+2. Data Understanding
+3. Data Preparation
+4. Modeling
+5. Evaluation
+6. Deployment
 
 ---
 
-## 🧠 Key Takeaways
-
-Please refer to the original slides for visual flowcharts and examples.
+## 🧠 Terminologies
+- **Model**: A simplified representation of reality.
+- **Predictive Model**: Used to estimate unknown future values.
+- **Instance**: A data point, described by attributes.
+- **Induction vs. Deduction**: Model creation vs. application.
 
 ---
 
-> 📌 This is a structured placeholder. You can request detailed section-by-section notes, definitions, or examples to be inserted here based on each PDF.
+## 💡 Applications
+- Predict customer churn
+- Segment customers
+- Optimize pricing and logistics
